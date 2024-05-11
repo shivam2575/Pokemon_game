@@ -29,11 +29,12 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#card1 img {
+img {
   width: 250px;
   height: 250px;
   text-align: center;
   padding-left: 60px;
+  object-fit: cover;
 }
 
 #player2 {
@@ -45,26 +46,19 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#card2 img {
-  width: 150px;
-  height: 150px;
-  padding-left: 60px;
-  /* object-fit: cover;
-    border-radius: 50%; */
-}
-#card_header {
+.card_header {
   background-color: #ddd;
   padding: 8px;
   margin-bottom: 10px;
 }
-#abilities {
+.abilities {
   list-style: none;
   padding: 20px;
   background-color: #ddd;
   margin-bottom: 0px;
 }
 
-#abilities li {
+.abilities li {
   margin-left: 20px;
   background-color: #c6c5c5;
   padding-left: 5px;
@@ -76,13 +70,13 @@ body {
 #p2_score {
   float: right;
 }
-#experience {
+.experience {
   float: right;
   padding-right: 40px;
   font-size: larger;
   font-style: italic;
 }
-#name {
+.name {
   margin-top: 30px;
   padding-left: 20px;
   /* font-weight:300; */
